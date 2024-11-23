@@ -1,9 +1,9 @@
 // Precargar imágenes
 const preloadImages = () => {
     const images = [
-      '/values/fondo1.jpg',
-      '/values/fondo2.jpg',
-      '/values/fondo3.jpg'
+      'fondo1.jpg',
+      'fondo2.jpg',
+      'fondo3.jpg'
     ];
   
     images.forEach(src => {
@@ -59,7 +59,7 @@ const preloadImages = () => {
         });
   
         button.addEventListener('mouseleave', () => {
-          background.style.backgroundImage = `url('/values/fondo1.jpg')`;
+          background.style.backgroundImage = `url('fondo1.jpg')`;
         });
       }
     });

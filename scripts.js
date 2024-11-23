@@ -59,7 +59,7 @@ const preloadImages = () => {
         });
   
         button.addEventListener('mouseleave', () => {
-          background.style.backgroundImage = url(fondo1.jpg);
+          background.style.backgroundImage = `url('fondo1.jpg')`;
         });
       }
     });
